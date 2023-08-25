@@ -1,0 +1,10 @@
+[package]
+name = "simple_ro_fs"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+authors = ["Taras Zakharchenko <taras.zakharchenko@gmail.com>"]
+
+[[example]]
+name = "fs_example"
+crate-type = ["bin"]
